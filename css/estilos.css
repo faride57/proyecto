@@ -1,0 +1,138 @@
+html,body{
+    padding:0px;/*alinea el texto que se encuentra en Body al borde izquierdo*/
+    margin:0px;/*elimina la margen del contenido*/
+    font-size: 20px;
+    font-family:algeria;
+    color:blue
+}
+nav{
+    display:flex;/*pasa los elementos de vertical a horizontal*/
+    background-color: green;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+}
+nav li{
+    padding-left: 20px;
+    List-style: none;
+}
+nav li a{
+    color: black;
+    text-decoration: none;
+}
+
+/*--------Main Section*/
+.main_section{
+    padding: 20%;
+    text-align: center;
+}
+.Products{
+    background-image: url("Imagenes/images/box1.png");
+    height: 100px;
+    height: cover;
+    background-position: center top;
+    padding: 20%;
+    display: flex;
+}
+.product{
+    padding:20px;
+    margin-top: -300px;
+}
+.product .Content{
+    background-color:white;
+    padding: 20px;
+    box-shadow: 0 0 3px black
+}
+.main_btn{
+    padding: 10px;
+    width: 100%;
+    background-color: aqua;
+    border-radius: 2px;
+    cursor: pointer;
+    color: red;
+}
+.main_btn:hover{
+    background-color: greenyellow;
+}
+.logo_image{
+    text-align: center;
+}
+/*--inicio Beneficios---*/
+.Beneficios{
+    padding: 40px;
+    display: flex;
+}
+.Beneficio{
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 3PX black;
+} 
+.Recomendaciones{
+    padding: 40px;
+    display: flex;
+}
+.Recomendacion{
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 3PX black; 
+} 
+nav{
+    display:flex;/*pasa los elementos de vertical a horizontal*/
+    background-color: green;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+footer{
+    background: black;
+    
+}
+.Preguntas{
+    font-family:cursive;
+    color:black
+    
+} 
+.modulo_pago{
+
+    background-color: white;
+    box-shadow:0 0 2px black;
+    padding: 10px;
+}
+.modulo_pago_images{
+    max-width: 150px;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+.data{
+    margin-top: 10px;
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+label{
+   font-size: 20px;/*tamaño de fuente de los label*/
+}
+.modulo_pago .main_bnt{
+    margin-top: 10px;
+    width: 100%;
+}
+.Preguntas{
+    padding: 20px;
+    text-align: justify;
+}
+.ventas{
+    padding: 10px;
+    width: 100%;
+    background-color: aqua;
+    border-radius: 2px;
+    cursor: pointer;
+    color: red;
+}
+.ventas2{
+    background-color: greenyellow;
+}
